@@ -148,7 +148,7 @@ module Fastlane
         content = {
           'fileType' => 5, # type 5 = RPK or APK
           'files' => [{
-            'fileName' => 'naviki-release.apk', 
+            'fileName' => 'app-release.apk', 
             'fileDestUrl' => apk_server_path
           }]
         }
